@@ -1,0 +1,66 @@
+body{
+  background-color: #cc9995;
+  text-align: center;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+#description{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#survey-form{
+    display:block;
+    margin-left: 15rem;
+
+}
+
+.form-groups {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input{
+    width: 70%;
+    display: block;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.label{
+    font-family: sans-serif;
+    display: flex;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.recommend{
+display: flex;
+align-items: center;
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+
+textarea {
+  width: 70%;
+  display: block;
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+
+#submit {
+  margin-top: 1rem;
+  display: flex;
+  width: 10%;
+  height: 20%;
+  font-size: 20px;
+  background-color: #8c9491;
+}

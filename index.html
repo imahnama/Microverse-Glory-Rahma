@@ -14,19 +14,36 @@
 </header>
   </div>
   <form class="survey" id="survey-form">
-     <div class = "form-groups">
-       <label id = "name-label" for = "name">Name</label>
-       <input type = "text" name = "name" id = "name" placeholder="Enter your name!" required/>
+     <div class="form-groups">
+       <label id = "name-label" class="label" for = "name">Name</label>
+       <input type = "text"   name = "name"  class="input" id = "name" placeholder="Enter your name!" required/>
+   </div>
+    <div class="form-groups">
+       <label class="label" id = "email-label" for = "email">Email</label>
+       <input type = "email"  class="input" name = "email" id = "email" placeholder="Enter your email!" required/>
+   </div>
+   <div class="form-groups">
+       <label id = "number-label" class="label" for = "age">Age(optional)</label>
+       <input type = "number"  class="input" name = "age" id = "number" min = "10" max = "100" placeholder="Enter your real age!" required/>
+   </div>
+   <div class="form-groups">
+      <label class="label" for = "select">Which option best describes your current role?</label>
+     <select class="input" name="select" id = "dropdown" required>
+       <option disabled selected>Select current role</option>
+       <option value="student">Student</option>
+       <option value="job">Full-time Job</option>
+       <option value="learner">Full-time Learner</option>
+       <option value="preferNot">Prefer not to say</option>
+       <option value="other">Other</option>
+        </select>
+   </div>
+   <div class="form-groups">
+       <label class="label" for = "select">Would you recommend freeCodeCamp to a friend?</label><br>
+       <label class="recommend"><input type="radio" name="recommend" value="Definitely" checked>Definitely</label><br>
+       <label class="recommend"><input type="radio" name="recommend" value="Maybe">Maybe</label><br>
+       <label class="recommend"><input type="radio" name="recommend" value="Notsure">Not sure</label>
+   </div>
 
-       <label id = "email-label" for = "email">Email</label>
-       <input type = "email" name = "email" id = "email" placeholder="Enter your email!" required/>
-
-       <label id = "number" for = "age">Age(optional)</label>
-       <input type = "number" name = "age" id = "number" min = "10" max = "100" placeholder="Enter your real age!" required/>
-
-
-
-     </div> 
   </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 

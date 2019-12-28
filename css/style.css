@@ -14,5 +14,38 @@ body{
 }
 
 #survey-form{
-    
+    display:block;
+    margin-left: 15rem;
+
+}
+
+.form-groups {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input{
+    width: 70%;
+    display: block;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.label{
+    font-family: sans-serif;
+    display: flex;
+    font-size: 20px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.recommend{
+display: flex;
+align-items: center;
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+
 }

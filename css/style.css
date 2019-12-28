@@ -48,4 +48,19 @@ font-size: 1.125rem;
 margin-bottom: 0.5rem;
 }
 
+textarea {
+  width: 70%;
+  display: block;
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+
+#submit {
+  margin-top: 1rem;
+  display: flex;
+  width: 10%;
+  height: 20%;
+  font-size: 20px;
+  background-color: #8c9491;
 }

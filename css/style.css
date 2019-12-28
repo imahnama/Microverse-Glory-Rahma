@@ -1,0 +1,18 @@
+body{
+  background-color: #cc9995;
+  text-align: center;
+}
+#title{
+    color: white;
+    font-size: 40px;
+}
+#description{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#survey-form{
+    
+}
